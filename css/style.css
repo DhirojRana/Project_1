@@ -7,13 +7,13 @@
 body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(185, 77, 0);
+
      padding-top: 56px;
 }
 .navbar
 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    background: linear-gradient(135deg, #181f41 0%, #2a2035 100%);
+    background: #222831;
 }
 .navbar-brand
 {
@@ -33,4 +33,98 @@ body
     transform: translateY(-2px);
     color: white !important;
     font-weight: 600;
+}
+.hero-header
+{
+    background: #222831;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    margin: 20px 0 10px 0;    
+}
+.hero-image
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar
+{
+    background:rgba(255, 255, 255, 0.87) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.sidebar h4
+{
+    padding-bottom: 15px;
+    margin:10px 0 10px 0;
+    border-bottom: 2px solid #222831;
+}
+.sidebar-menu
+{
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar-menu li
+{
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sidebar-menu li:hover
+{
+    transform: translateX(5px);
+}
+.sidebar-banner img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+.sidebar ul li
+{
+    margin: 10px;
+}
+/*
+    Designs to be done after fetching the example datas using jquery ajax
+*/
+.stats-card
+{
+    text-align: center;
+   padding: 15px;
+}
+.stats-card p 
+{
+    color: #6a6c6e;
+}
+footer
+{
+    background: #222831;
+    color: white;
+    margin-top: 50px;
+    padding: 40px;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+footer a:hover
+{
+    text-decoration: underline;
+}
+.social-links a
+{   font-size: 25px;
+    margin: 10px;
+}
+footer h5
+{
+    margin-bottom: 20px;
+}
+footer .copyright
+{
+    padding-top: 20px;
 }
